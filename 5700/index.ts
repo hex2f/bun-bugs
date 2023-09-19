@@ -4,7 +4,6 @@ await Bun.build({
 	sourcemap: "none",
 	root: '.',
 	splitting: true,
-	publicPath: './',
 	format: "esm",
 	outdir: 'out',
 	plugins: [],
